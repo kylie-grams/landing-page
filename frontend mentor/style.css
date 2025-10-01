@@ -1,0 +1,94 @@
+.container{
+    width: 95%;
+    height: 480px;
+    background-color: hsl(0, 100%, 74%);
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    
+}
+.text{
+    width: 35%;
+    height:60%;
+    color: white;
+    margin: 10% auto;
+    margin-left: 8%;
+}
+h1{
+    font-weight: 700;
+    font-size: 3em;
+}
+.contain{
+    width: 500px;
+    height: 80%;
+    background-color: hsl(0, 100%, 74%);;
+    margin: 4% auto;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.try{
+    width: 480px;
+    height: 40px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    color: white;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+}
+.form{
+    width: 480px;
+    height: 325px;
+    background-color: white;
+     margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+input{
+    width: 410px;
+    height: 30px;
+    border-radius: 5px;
+    border-color:lightgray;
+margin: 10px auto;
+    margin-top: 10px;
+    
+}
+button{
+     width: 410px;
+    height: 35px;
+    color: white;
+    background-color: #38cc8c;
+    border-color: #38cc8c ;
+    margin: 10px auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+a{
+    color: red;
+}
+.terms{
+    color: lightgray;
+    text-align: center;
+    font-size: 12px;
+}
+::placeholder{
+    padding-left: 15px;
+}
