@@ -3,10 +3,12 @@
     height: 480px;
     background-color: hsl(0, 100%, 74%);
     margin: auto;
+    /* how do u give margin auto and come and give margin top after 😂 wehh mama  */
     margin-top: 4%;
     display: flex;
     justify-content: space-between;
-    font-family: Poppins;
+    /* go to google fonts and check how we use fonts which are not found in ur pc or custom fonts */
+    font-family: Poppins; 
     
 }
 .text{
@@ -21,9 +23,11 @@ h1{
     font-size: 3em;
 }
 .contain{
+    /* generally we dont give height to some elements you can do all of that with padding and width is always in percentage and not px */
     width: 500px;
     height: 80%;
     background-color: hsl(0, 100%, 74%);;
+    /* i will send u a video on how to use margin  */
     margin: 4% auto;
     margin-right: 8%;
     display: flex;
